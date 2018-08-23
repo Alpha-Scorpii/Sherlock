@@ -11,7 +11,7 @@ Solution of Hackerrank, Codechef, Codeforces and other sources will be available
 Problem Solutions will be avaibale in Python, Golang, Java and Javascript at start.
 Later solutions will be added in more languages. 
 
-# Featurs:
+# Features:
 
 Each solution may/might have link to some sources to follow up why this logic has been used. 
 So go through them too for depth analysis or understanding.
