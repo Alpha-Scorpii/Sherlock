@@ -2,6 +2,7 @@ import math
 
 # This method is Iterative way to find a element is Sorted array
 # Algo : Binary Search
+# prerequisite Array must be sorted.
 
 def bin_search(arr,l,r,x):
     
@@ -21,6 +22,10 @@ arr = [2, 3, 4, 10, 40, 50, 53, 56, 69, 70]
 x = 50
  
 ########### Function call ############
+
+#
+# @param arr : array with integers elements
+# @param x : Element to find in array
 
 result = bin_search(arr, 0, len(arr)-1, x)
  
