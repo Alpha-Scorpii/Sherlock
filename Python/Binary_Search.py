@@ -13,7 +13,7 @@ def bin_search(arr,l,r,x):
     elif (arr[mid] > x):
         r = mid-1
     else:
-         l = mid+1
+        l = mid+1
 
    return -1
 
