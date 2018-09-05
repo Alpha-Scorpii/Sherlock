@@ -1,10 +1,6 @@
 # Sherlock
 Data Structure and Algorithms Problem Solutions.
 
-# Commitment:
-
-Each day atleast one solution
-
 # TODO
 Hackerrank already solved problem to be added.
 Codechef problem solution to be added.
