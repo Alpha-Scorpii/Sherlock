@@ -12,23 +12,23 @@ def maximumDraws(n):
             return n+1
    
 #
-# This Function code is part of HackerRank and to be used in HackerRank console.
+# This Function code is part of HackerRank and to be used in HackerRank environemnt.
 #
 
-# if __name__ == '__main__':
-#     fptr = open(os.environ['OUTPUT_PATH'], 'w')
+''' if __name__ == '__main__':
+      fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-#     t = int(input())
+      t = int(input())
 
-#     for t_itr in range(t):
-#         n = int(input())
+      for t_itr in range(t):
+          n = int(input())
 
-#         result = maximumDraws(n)
+          result = maximumDraws(n)
 
-#         fptr.write(str(result) + '\n')
+          fptr.write(str(result) + '\n')
 
-#     fptr.close()
-
+      fptr.close()
+'''
 
 ############# Driver Function ############
 
