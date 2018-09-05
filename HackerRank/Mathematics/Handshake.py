@@ -4,7 +4,7 @@ import os
 import sys
 import math
 
-#
+# 1st approach
 # Complete the handshake function below.
 #
 def handshake(n):
@@ -12,6 +12,12 @@ def handshake(n):
     # Write your code here.
     #
     return int(fact(n)/(fact(2)*fact(n-2)));
+
+# 
+# 2nd appraoch
+# The easiest one and the resultant will be sum of given n numbers.
+def handshake(n):
+    return int((n*(n+1))/2)    
 
 #
 # creating own recursive fact method will create stackoverflow for large number.
@@ -21,8 +27,7 @@ def fact(value):
         return 1
     else:
        return int(value*fact(value-1))
-
-    #
+       
     # returning the value of factorial using puthon inbuilt method
     # All Hackerrank test cases wil pass.  
     
