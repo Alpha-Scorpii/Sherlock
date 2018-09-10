@@ -27,7 +27,7 @@ def fact(value):
         return 1
     else:
        return int(value*fact(value-1))
-       
+
     # returning the value of factorial using puthon inbuilt method
     # All Hackerrank test cases wil pass.  
     
