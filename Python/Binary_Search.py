@@ -8,7 +8,7 @@ def bin_search(arr,l,r,x):
     
    while(l <= r):
 
-    mid = math.floor(l + (r - l)/2);
+    mid = int(math.floor(l + (r - l)/2));
     if (arr[mid] == x):
         return mid
     elif (arr[mid] > x):
@@ -19,7 +19,7 @@ def bin_search(arr,l,r,x):
    return -1
 
 arr = [2, 3, 4, 10, 40, 50, 53, 56, 69, 70]
-x = 50
+x = 10
  
 ########### Function call ############
 

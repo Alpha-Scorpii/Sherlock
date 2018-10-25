@@ -29,7 +29,7 @@ def missingElementInDuplicateArray(arr,arr1,m,n):
 ########## Driver Function ###########
 
 arr = [1,2,3,6,8,4,10,100,18,20,25,50]
-arr1 = [2,8,6,1,4,10,25,100,3,20,18]
+arr1 = [2,8,6,1,4,10,50,100,3,20,18]
 
 # M = len(arr)
 # N = len(arr1)
